@@ -1,3 +1,10 @@
-const msg: string = 'Hola Muindo';
+const msg: string = 'Hola Mundoo';
 
-console.log(msg);
+const hero = {
+    name: 'Ireonman',
+    age: 45
+}
+
+hero.age = 50
+
+console.log(hero.age + 1);
